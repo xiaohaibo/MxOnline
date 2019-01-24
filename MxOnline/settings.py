@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'organization',
     'xadmin',
     'crispy_forms',
+    'captcha',
 ]
 
 AUTH_USER_MODEL = "users.UserProfile"
@@ -101,7 +102,7 @@ DATABASES = {
         'NAME': "MxOnline",
         'USER': 'sync',
         'PASSWORD': 'sync',
-        'HOST': '192.168.0.173',
+        'HOST': '192.168.37.155',
         'OPTIONS': {
             "init_command": "SET sql_mode='STRICT_TRANS_TABLES'",
         }
